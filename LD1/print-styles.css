@@ -1,0 +1,29 @@
+/* Spausdinimo stiliai */
+@media print {
+    body {
+        background-color: #C5C6D0 !important; /* Background spalva spausdinimo peržiūroje */
+        color: #000 !important; /* Teksto spalva spausdinimo peržiūroje */
+        font-family: serif !important; /* Serifinis šriftas spausdinimo peržiūroje */
+    }
+    .section1,
+    .section2,
+    .section3 {
+        background-color: #696880 !important; /* Background spalva sekcijoms spausdinimo peržiūroje */
+        color: #fff !important; /* Teksto spalva sekcijoms spausdinimo peržiūroje */
+    }
+    .website-header {
+        background-color: #373737 !important; /* Headerio spalva spausdinimo peržiūroje */
+        color: #fff !important; /* Teksto spalva headeriui spausdinimo peržiūroje */
+    }
+    /* Pridėkite stilių kitiems elementams, jei reikia */
+
+    /* Pridėkite stilių, kad išlaikytumėte originalias spalvas svetainėje */
+    body,
+    .website-header,
+    .section1,
+    .section2,
+    .section3 {
+        background-color: initial !important;
+        color: initial !important;
+    }
+}
